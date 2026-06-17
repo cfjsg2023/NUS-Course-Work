@@ -1,6 +1,4 @@
-# CS1010 — Programming Methodology
-
-> Example course folder demonstrating the repository convention. Replace with your real courses (copy this structure for each course code).
+# MA2213 — Numerical Analysis I
 
 - `notes/` — lecture notes, summaries, cheat sheets (LaTeX).
 - `projects/` — assignments, labs, project write-ups (LaTeX).
