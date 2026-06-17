@@ -1,0 +1,57 @@
+% =====================================================================
+% Note template for NUS Course Work
+% Copy this file into a course's notes/ folder and rename it,
+% e.g. CS2040/notes/week-03-graphs.tex
+% Compile with: pdflatex week-03-graphs.tex
+% =====================================================================
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+
+% --- Theorem-like environments ---
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[section]
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+
+% --- Document metadata ---
+\title{Course Code --- Topic / Week}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\bigskip
+
+\section{Overview}
+Brief summary of what this note covers.
+
+\section{Key concepts}
+\begin{definition}
+State a definition here.
+\end{definition}
+
+\begin{example}
+Work through an example.
+\end{example}
+
+\section{Notes}
+\begin{itemize}[leftmargin=*]
+    \item Point one.
+    \item Point two.
+\end{itemize}
+
+\section{Summary}
+Wrap up the main takeaways.
+
+\end{document}

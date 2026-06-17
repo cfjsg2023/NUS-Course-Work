@@ -1,0 +1,69 @@
+% =====================================================================
+% Project / report template for NUS Course Work
+% Copy this file into a course's projects/ folder and rename it,
+% e.g. CS2040/projects/assignment-1.tex
+% Compile with: pdflatex assignment-1.tex
+% (If you use the minted package for code, compile with:
+%  pdflatex -shell-escape assignment-1.tex)
+% =====================================================================
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{listings}      % lightweight code listings (no shell-escape needed)
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+
+% --- Code listing style ---
+\lstset{
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{gray},
+    stringstyle=\color{red!60!black},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    breaklines=true,
+    frame=single,
+    showstringspaces=false
+}
+
+% --- Document metadata ---
+\title{Course Code --- Project / Assignment Title}
+\author{Your Name \\ Student No. AXXXXXXXX}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+A short summary of the project: the problem, your approach, and the result.
+\end{abstract}
+
+\tableofcontents
+\bigskip
+
+\section{Introduction}
+Describe the problem and objectives.
+
+\section{Approach}
+Explain your method or design.
+
+\section{Implementation}
+Discuss the implementation. Example code listing:
+\begin{lstlisting}[language=Python]
+def hello():
+    print("Hello, NUS!")
+\end{lstlisting}
+
+\section{Results}
+Present results, figures, and analysis.
+
+\section{Conclusion}
+Summarize findings and possible improvements.
+
+\end{document}

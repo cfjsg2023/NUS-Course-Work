@@ -1,0 +1,49 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+*.idx
+*.ind
+*.ilg
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+*.xdy
+*.figlist
+*.makefile
+*.dpth
+*.md5
+*.auxlock
+
+# Build directories
+build/
+out/
+_minted-*/
+
+# Editor / OS clutter
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Compiled PDFs (ignored by default; add an exception below to commit a specific final PDF)
+*.pdf
+# Example exception:
+# !CS2040/projects/final-report.pdf
